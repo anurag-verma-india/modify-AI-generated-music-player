@@ -1,4 +1,4 @@
-# Modi-fy (Simple Music Player)
+# Modi-fy (AI generated songs in Modi Ji's voice )
 
 This is the source code of a simple vanilla javascript music player  
 It has songs generated using AI in the voice of Indian Prime Minister Narendra Modi
