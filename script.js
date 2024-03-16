@@ -63,6 +63,14 @@ const makeAllPlays = () => {
 
 Array.from(document.getElementsByClassName('songItemPlay')).forEach((element) => {
     element.addEventListener('click', (e) => {
+        // If play button of currently playing song is clicked pause it
+        // if (songIndex === parseInt(e.target.id)) {
+        //     console.log("Pause Song");
+        //     audioElement.pause();
+        //     masterPlay.classList.remove('fa-pause-circle');
+        //     masterPlay.classList.add('fa-play-circle');
+        //     gif.style.opacity = 0;
+        // }
         makeAllPlays();
         songIndex = parseInt(e.target.id);
         e.target.classList.remove('fa-play-circle');
