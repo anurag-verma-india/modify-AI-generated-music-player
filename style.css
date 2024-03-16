@@ -16,7 +16,7 @@ nav {
 
 nav ul {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     list-style-type: none;
     height: 65px;
     background-color: black;
@@ -25,6 +25,7 @@ nav ul {
 
 nav ul li {
     padding: 0 12px;
+    line-height: 65px;
 }
 
 .brand img {
@@ -37,6 +38,8 @@ nav ul li {
     align-items: center;
     font-weight: bolder;
     font-size: 1.3rem;
+    margin-right: auto;
+    height: 65px;
 }
 
 .container {
@@ -121,6 +124,10 @@ nav ul li {
 }
 
 @media only screen and (max-width: 1300px) {
+    .container {
+        background-image: none;
+    }
+
     body {
         background-color: black;
     }
@@ -130,7 +137,7 @@ nav ul li {
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
     .container {
         min-height: 72vh;
         background-color: black;
@@ -141,7 +148,6 @@ nav ul li {
         margin-top: 0px;
         width: 80%;
         padding: 34px;
-        background-image: url('modi-bg.jpg');
     }
 
     .bottom {
@@ -154,5 +160,14 @@ nav ul li {
 
     .songInfo {
         padding-top: 150px;
+    }
+}
+
+
+@media only screen and (max-width: 386px) {
+
+    nav ul,
+    .brand {
+        font-size: 1rem;
     }
 }
