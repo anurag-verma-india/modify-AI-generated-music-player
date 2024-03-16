@@ -49,7 +49,9 @@ nav ul li {
     width: 70%;
     border-radius: 12px;
     padding: 34px;
-    background-image: url('bg.jpg');
+    background-image: url('modi-bg.png');
+    background-position: right;
+    background-repeat: no-repeat;
 }
 
 .bottom {
@@ -139,7 +141,7 @@ nav ul li {
         margin-top: 0px;
         width: 80%;
         padding: 34px;
-        background-image: url('bg.jpg');
+        background-image: url('modi-bg.jpg');
     }
 
     .bottom {
