@@ -15,7 +15,7 @@ let songs = [
     { songName: "Why this kolavari di", filePath: "songs/3.mp3", coverPath: "covers/3.jpg" },
     { songName: "Pasoori Nu", filePath: "songs/4.mp3", coverPath: "covers/4.jpg" },
     { songName: "Channa mereya unplugged", filePath: "songs/5.mp3", coverPath: "covers/5.jpg" },
-    { songName: "Maan Meri Jaan - Modi ji x King", filePath: "songs/6.mp3", coverPath: "covers/7.jpg" },
+    { songName: "Maan Meri Jaan", filePath: "songs/6.mp3", coverPath: "covers/7.jpg" },
     { songName: "Saadi Gali Aaja", filePath: "songs/7.mp3", coverPath: "covers/7.jpg" },
     { songName: "Chaleya", filePath: "songs/8.mp3", coverPath: "covers/8.jpg" },
     { songName: "Blue Eyes", filePath: "songs/9.mp3", coverPath: "covers/9.jpg" },

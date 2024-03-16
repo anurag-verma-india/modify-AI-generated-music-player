@@ -104,8 +104,12 @@ nav ul li {
     border-radius: 34px;
 }
 
+.songName {
+    width: 50%;
+}
+
 .timestamp {
-    margin: 0 23px;
+    margin-right: 10px;
 }
 
 .timestamp i {
@@ -124,12 +128,24 @@ nav ul li {
 }
 
 @media only screen and (max-width: 1300px) {
+    body {
+        background-color: black;
+    }
+
     .container {
         background-image: none;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container h1 {
+        text-align: center;
     }
 
     body {
-        background-color: black;
+        background-color: b
+            /* padding: 0; */
+            lack;
     }
 
     .songInfo {
@@ -138,20 +154,19 @@ nav ul li {
 }
 
 @media only screen and (max-width: 768px) {
+
     .container {
-        min-height: 72vh;
-        background-color: black;
-        color: white;
-        font-family: 'Varela Round', sans-serif;
-        display: flex;
-        margin: 23px auto;
-        margin-top: 0px;
         width: 80%;
-        padding: 34px;
+        margin: 0px;
     }
 
-    .bottom {
-        height: 200px;
+    .songName {
+        width: 40%;
+    }
+
+    .timestamp {
+        margin-right: 10px;
+        margin-left: 0;
     }
 
     .songInfo img {
@@ -160,6 +175,10 @@ nav ul li {
 
     .songInfo {
         padding-top: 150px;
+    }
+
+    .bottom {
+        height: 200px;
     }
 }
 
